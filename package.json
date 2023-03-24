@@ -1,0 +1,19 @@
+{
+  "name": "alfred-ali-trans",
+  "version": "1.0.1",
+  "description": "alfred阿里专业版翻译",
+  "main": "index.js",
+  "module": "",
+  "type": "module",
+  "scripts": {
+    "postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+  },
+  "keywords": [],
+  "author": "ningcol",
+  "license": "ISC",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.12",
+    "alfy": "^1.1.0"
+  }
+}
